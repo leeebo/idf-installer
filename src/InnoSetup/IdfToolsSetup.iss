@@ -302,7 +302,7 @@ Name: "{#COMPONENT_TARGET_ESP32_C}"; Description: {cm:ComponentTargetEsp32c}; Ty
 #endif
 
 #ifndef DISABLE_TARGET_ESP32_C2
-Name: "{#COMPONENT_TARGET_ESP32_C2}"; Description: {cm:ComponentTargetEsp32c2}; Types: custom; Flags: checkablealone
+Name: "{#COMPONENT_TARGET_ESP32_C2}"; Description: {cm:ComponentTargetEsp32c2}; Types: full custom; Flags: checkablealone
 #endif
 
 #ifndef DISABLE_TARGET_ESP32_C3
@@ -310,9 +310,9 @@ Name: "{#COMPONENT_TARGET_ESP32_C3}"; Description: {cm:ComponentTargetEsp32c3}; 
 #endif
 
 #ifndef DISABLE_TARGET_ESP32_C6
-Name: "{#COMPONENT_TARGET_ESP32_C6}"; Description: {cm:ComponentTargetEsp32c6}; Types: custom; Flags: checkablealone
+Name: "{#COMPONENT_TARGET_ESP32_C6}"; Description: {cm:ComponentTargetEsp32c6}; Types: full custom; Flags: checkablealone
 Name: "{#COMPONENT_TARGET_ESP32_H}"; Description: {cm:ComponentTargetEsp32h}; Types: full; Flags: checkablealone
-Name: "{#COMPONENT_TARGET_ESP32_H2}"; Description: {cm:ComponentTargetEsp32h2}; Types: custom; Flags: checkablealone
+Name: "{#COMPONENT_TARGET_ESP32_H2}"; Description: {cm:ComponentTargetEsp32h2}; Types: full custom; Flags: checkablealone
 #endif
 
 Name: "{#COMPONENT_TARGET_ESP32_S}"; Description: {cm:ComponentTargetEsp32s}; Types: full; Flags: checkablealone
@@ -327,7 +327,7 @@ Name: "{#COMPONENT_TARGET_ESP32_S3}"; Description: {cm:ComponentTargetEsp32s3}; 
 #if OFFLINE == 'no'
 Name: "{#COMPONENT_OPTIMIZATION}"; Description: {cm:ComponentOptimization}; Types: custom;
 Name: "{#COMPONENT_OPTIMIZATION_ESPRESSIF_DOWNLOAD}"; Description: {cm:ComponentOptimizationEspressifDownload}; Types: full custom; Flags: checkablealone
-Name: "{#COMPONENT_OPTIMIZATION_JIHULAB_MIRROR}"; Description: {cm:ComponentOptimizationJihulabMirror}; Types: custom; Flags: checkablealone
+Name: "{#COMPONENT_OPTIMIZATION_JIHULAB_MIRROR}"; Description: {cm:ComponentOptimizationJihulabMirror}; Types: full custom; Flags: checkablealone
 Name: "{#COMPONENT_OPTIMIZATION_GITEE_MIRROR}"; Description: {cm:ComponentOptimizationGiteeMirror}; Types: custom; Flags: checkablealone
 Name: "{#COMPONENT_OPTIMIZATION_GIT_SHALLOW}"; Description: {cm:ComponentOptimizationGitShallow}; Types: full custom; Flags: checkablealone
 #endif
