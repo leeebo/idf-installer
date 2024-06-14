@@ -114,6 +114,8 @@ begin
   end;
   if (WizardIsComponentSelected('{#COMPONENT_OPTIMIZATION_GITEE_MIRROR}')) then begin
     Result := Result + 'Mirror (Gitee.com); ';
+  end else if (WizardIsComponentSelected('{#COMPONENT_OPTIMIZATION_JIHULAB_MIRROR}')) then begin
+    Result := Result + 'Mirror (jihulab.com); ';
   end;
   if (WizardIsComponentSelected('{#COMPONENT_OPTIMIZATION_GIT_SHALLOW}')) then begin
     Result := Result + 'Shallow (Git) ';

@@ -214,7 +214,7 @@ function PrepareIdfPythonWheels {
             --extra-index-url "https://dl.espressif.com/pypi/" `
             -r ${Requirements} `
             -d ${WheelsDirectory} `
-            -c "build\$InstallerType\${ConstraintFile}" || FailBuild -Message "Failed to download Python wheels"
+            -c "build\$InstallerType\${ConstraintFile}"
     } else {
         # ESP-IDF v4 and older
         $RequirementsPath = "$BundleDir\requirements.txt" # Fallback to ESP-IDF v4
@@ -225,7 +225,7 @@ function PrepareIdfPythonWheels {
             --only-binary=":all:" `
             --extra-index-url "https://dl.espressif.com/pypi/" `
             -r ${Requirements} `
-            -d ${WheelsDirectory} || FailBuild -Message "Failed to download Python wheels"
+            -d ${WheelsDirectory}
     }
 }
 

@@ -435,10 +435,8 @@ begin
 
   IsEspressifSiteReachable := VerifySiteCertificate('https://dl.espressif.com/dl/esp-idf');
   IsGithubSiteReachable := VerifySiteCertificate('https://github.com/espressif/esp-idf');
-  if not IsGithubSiteReachable then begin
-    SystemLog(' ' + CustomMessage('SystemCheckAlternativeMirror') + ' Gitee.com');
-    IsGiteeSiteReachable := VerifySiteCertificate('https://gitee.com/EspressifSystems/esp-idf');
-  end;
+  IsGiteeSiteReachable := VerifySiteCertificate('https://gitee.com/EspressifSystems/esp-idf');
+  IsJihulabSiteReachable := VerifySiteCertificate('https://jihulab.com/esp-mirror/espressif/esp-idf');
   IsAmazonS3SiteReachable := VerifySiteCertificate('https://www.s3.amazonaws.com/');
 end;
 

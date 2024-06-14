@@ -156,6 +156,7 @@ SystemVersionTooLow=Too old version of operating system. Please use supported ve
 WindowsVersion=Windows version
 SystemCheckAlternativeMirror=Testing alternative mirror
 ComponentOptimizationGiteeMirror=Git mirror gitee.com/EspressifSystems/esp-idf
+ComponentOptimizationJihulabMirror=Git mirror jihulab.com/esp-mirror/espressif/esp-idf/
 ComponentOptimizationGitShallow=Single branch clone (--single-branch)
 SummaryComponents=Components
 SummaryDrivers=Drivers
