@@ -376,6 +376,10 @@ begin
         IsGitRecursive := False;
         GitRepository := 'https://gitee.com/EspressifSystems/esp-idf.git';
         GitSubmoduleUrl := 'https://gitee.com/esp-submodules/';
+    end else if (WizardIsComponentSelected('{#COMPONENT_OPTIMIZATION_JIHULAB_MIRROR}')) then begin
+        GitUseMirror := False;
+        IsGitRecursive := True;
+        GitRepository := 'https://jihulab.com/esp-mirror/espressif/esp-idf.git';
     end;
 
     CmdLine := GitExecutablePath + ' clone --progress -b ' + IDFDownloadVersion;

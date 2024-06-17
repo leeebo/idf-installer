@@ -156,6 +156,7 @@ SystemVersionTooLow=Príliš stará verzia operačného systému. Použite podpo
 WindowsVersion=Verzia Windows
 SystemCheckAlternativeMirror=Test alternatívneho zrkadla
 ComponentOptimizationGiteeMirror=Git zrkadlo gitee.com/EspressifSystems/esp-idf
+ComponentOptimizationJihulabMirror=Git zrkadlo jihulab.com/esp-mirror/espressif/esp-idf/
 ComponentOptimizationGitShallow=Klon jednej vetvy (--single-branch)
 SummaryComponents=Komponenty
 SummaryDrivers=Ovládače
